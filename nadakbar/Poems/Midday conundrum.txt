@@ -1,0 +1,21 @@
+-- Midday Conundrum 
+
+Sitting at my desk writing some casual CSS, little did i know it would be quite the pest. 
+
+Overflow issues, positioning looking whack!, definitely think its time for a midday snack. 
+
+Head in my hands look at this spaghetti code, perhaps i leave it be for a bit before the mind goes into overload.
+
+Whats this!? a bug during compile how can this be with code that i thought was so versatle, 
+
+Not to fear, my debugging skills are pretty amazing, 5 ....10......30 ..... 45 minutes later still debugging..... maybe should have held off on the self praising. 
+
+Aha!!! a solution to the troubled code!, ...... really ...... nothing but a bug in node. 
+
+where was my self promised snack from an hour ago. it was lost in the darkness of debugging code. 
+
+Light bulb moment! to end all the woes..... How about i just delete ALL ........ OF ........THE ............CODE!!! 
+
+
+- The End
+
