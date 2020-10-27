@@ -1,0 +1,32 @@
+[{
+    "request": {
+        "method": "GET",
+        "url": "http:\/\/pokeapi.co\/api\/v2\/berry\/1\/",
+        "headers": {
+            "Host": "pokeapi.co",
+            "Accept-Encoding": null,
+            "User-Agent": "GuzzleHttp\/6.2.0 curl\/7.35.0 PHP\/7.0.6",
+            "Accept": null
+        }
+    },
+    "response": {
+        "status": {
+            "http_version": "1.1",
+            "code": "200",
+            "message": "OK"
+        },
+        "headers": {
+            "Date": "Wed, 13 Jul 2016 12:13:05 GMT",
+            "Content-Type": "application\/json",
+            "Transfer-Encoding": "chunked",
+            "Connection": "keep-alive",
+            "Set-Cookie": "__cfduid=d27c255c8478b4ebce2f4400acdf6bcf01468411984; expires=Thu, 13-Jul-17 12:13:04 GMT; path=\/; domain=.pokeapi.co; HttpOnly",
+            "Vary": "Cookie",
+            "X-Frame-Options": "SAMEORIGIN",
+            "Allow": "GET, HEAD, OPTIONS",
+            "Server": "cloudflare-nginx",
+            "CF-RAY": "2c1ca597e61e31f8-SIN"
+        },
+        "body": "{\"natural_gift_power\":60,\"flavors\":[{\"flavor\":{\"url\":\"http:\\\/\\\/pokeapi.co\\\/api\\\/v2\\\/berry-flavor\\\/1\\\/\",\"name\":\"spicy\"},\"potency\":10},{\"flavor\":{\"url\":\"http:\\\/\\\/pokeapi.co\\\/api\\\/v2\\\/berry-flavor\\\/2\\\/\",\"name\":\"dry\"},\"potency\":0},{\"flavor\":{\"url\":\"http:\\\/\\\/pokeapi.co\\\/api\\\/v2\\\/berry-flavor\\\/3\\\/\",\"name\":\"sweet\"},\"potency\":0},{\"flavor\":{\"url\":\"http:\\\/\\\/pokeapi.co\\\/api\\\/v2\\\/berry-flavor\\\/4\\\/\",\"name\":\"bitter\"},\"potency\":0},{\"flavor\":{\"url\":\"http:\\\/\\\/pokeapi.co\\\/api\\\/v2\\\/berry-flavor\\\/5\\\/\",\"name\":\"sour\"},\"potency\":0}],\"natural_gift_type\":{\"url\":\"http:\\\/\\\/pokeapi.co\\\/api\\\/v2\\\/type\\\/10\\\/\",\"name\":\"fire\"},\"name\":\"cheri\",\"max_harvest\":5,\"soil_dryness\":15,\"smoothness\":25,\"item\":{\"url\":\"http:\\\/\\\/pokeapi.co\\\/api\\\/v2\\\/item\\\/126\\\/\",\"name\":\"cheri-berry\"},\"firmness\":{\"url\":\"http:\\\/\\\/pokeapi.co\\\/api\\\/v2\\\/berry-firmness\\\/2\\\/\",\"name\":\"soft\"},\"growth_time\":3,\"id\":1,\"size\":20}"
+    }
+}]
