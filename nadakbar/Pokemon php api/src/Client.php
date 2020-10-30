@@ -1,16 +1,17 @@
 <?php
 namespace Pokeapi;
+use stdClass;
 
 class Client
 {
     protected $base_uri;
 
-    function __construct($version = 'v2')
+    function __construct(string $version = 'v2')
     {
         $this->base_uri = "http://pokeapi.co/api/{$version}/";
     }
 
-    public function get($resource, $id = null)
+    public function get(string $resource, int $id = null): ?stdClass
     {
         $endpoint = $resource;
 
