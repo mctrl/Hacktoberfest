@@ -1,4 +1,4 @@
-# Hacktoberfest2020
+# Hacktoberfest
 This is a repo for Hacktoberfest
 
 Add a list of all the cool things you want to share
