@@ -1,0 +1,14 @@
+{
+  "name": "mario",
+  "version": "1.0.0",
+  "description": "Mario Game using kaboom",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server"
+  },
+  "author": "Nadeem Akbar",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.0.0"
+  }
+}
