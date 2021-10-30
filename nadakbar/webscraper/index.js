@@ -10,17 +10,35 @@ const app = express();
 const URL = "https://www.coingecko.com/en"
 
 axios(URL)
-    .then(response => {
+    .then(response => { 
         const html = response.data
         const $ = cheerio.load(html)
         const coins = []
-        $('.coin-name', html).each(function() {
-            const coin = $(this).data('sort')
+        $('table tbody tr', html).each(function() {
+           
+            const number = $(this).find(".table-number").text().trim()
+            const coin = $(this).find(".coin-name").data("sort")
+            const price = $(this).find(".td-price").text().trim()
+            const onehrchange = $(this).find(".change1h").data("sort").toFixed(2)
+            const tfourhrchange = $(this).find(".change24h").data("sort").toFixed(2)
+            const sdaychange = $(this).find(".change7d").data("sort").toFixed(2)
+            const sevendayimage = $(this).find(".pl-2 img").data("src")
+            
+            if (coin == undefined) {
+                // return
+            }
             coins.push({
-                coin
+                number,
+                coin,
+                price,
+                onehrchange,
+                tfourhrchange,
+                sdaychange,
+                sevendayimage
+
             })
         })
-        console.log(coins)
-    })
+        console.table(coins)
+    }).catch(err => console.log(err))
 
 app.listen(PORT, ()=> console.log(`Server running on PORT ${PORT}`))
