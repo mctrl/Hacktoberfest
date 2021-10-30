@@ -12,7 +12,15 @@ const URL = "https://www.coingecko.com/en"
 axios(URL)
     .then(response => {
         const html = response.data
-        console.log(html)
+        const $ = cheerio.load(html)
+        const coins = []
+        $('.coin-name', html).each(function() {
+            const coin = $(this).data('sort')
+            coins.push({
+                coin
+            })
+        })
+        console.log(coins)
     })
 
 app.listen(PORT, ()=> console.log(`Server running on PORT ${PORT}`))
